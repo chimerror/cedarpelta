@@ -1,0 +1,10 @@
+{:twitter-credentials {:consumer-key "CONSUMER KEY (API KEY) HERE"
+                       :consumer-secret "CONSUMER SECRET (API SECRET) HERE"
+                       :access-token "ACCESS TOKEN HERE"
+                       :access-token-secret "ACCESS TOKEN SECRET HERE"}
+
+ :source {:user-timeline "SOURCE USERNAME HERE"
+          :tweets-per-api-call 200 ; Twitter only allows 200 tweets per call max
+          :max-recursion-depth 17} ; Twitter only promises 3200 tweets back, so 17 should get it all
+
+ :words-per-tweet [10 30]}

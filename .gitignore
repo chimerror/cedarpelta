@@ -1,0 +1,20 @@
+# Clojure Files
+/target
+/classes
+/checkouts
+pom.xml
+pom.xml.asc
+*.jar
+*.class
+/.lein-*
+/.nrepl-port
+.hgignore
+.hg/
+
+# VIM Files
+*~
+*.swp
+
+# IDEA Files
+.idea
+*.iml
